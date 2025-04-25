@@ -34,12 +34,12 @@
 }
 
 .header__title {
-  @include menu(5, 0);
+  @include menu(3, 0);
   @include align-items(center);
   @include flex-wrap(nowrap);
   @include flex(1);
   height: map-get($layout, header-height);
-  margin-right: map-get($spacers, 2);
+  margin-right: map-get($spacers, 3);
   white-space: nowrap;
   @include media-breakpoint-down(md) {
     height: auto;
@@ -64,13 +64,13 @@
   @include flexbox();
   @include align-items(center);
   & > svg {
-    width: map-get($base, font-size-h4) * 1;
-    height: map-get($base, font-size-h4) * 1;
+    width: map-get($base, font-size-h4) * 1.6;
+    height: map-get($base, font-size-h4) * 1.6;
     margin-right: map-get($spacers, 3);
     vertical-align: middle;
     @include media-breakpoint-down(md) {
-      width: map-get($base, font-size-h4) * 1;
-      height: map-get($base, font-size-h4) * 1;
+      width: map-get($base, font-size-h4) * 1.2;
+      height: map-get($base, font-size-h4) * 1.2;
     }
   }
   & > a {
