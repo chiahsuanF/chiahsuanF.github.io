@@ -55,7 +55,7 @@
     display: none !important;
     margin-left: map-get($spacers, 2);
     @include media-breakpoint-down(md) {
-      @include flexbox();
+      display: none !important;
     }
   }
 }
@@ -99,7 +99,7 @@
     }
     .search-button {
       @include media-breakpoint-down(md) {
-        display: none;
+        display: none !important;
       }
     }
   }
