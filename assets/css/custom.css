@@ -21,18 +21,19 @@
 
 .team-images {
   display: flex;
-  justify-content: space-between;  /* Ensures images are spaced evenly */
-  gap: 20px;  /* Adds space between images */
+  justify-content: space-between; /* This will evenly space the images */
+  gap: 15px; /* Adds a bit of space between the images */
+  width: 100%;
   margin: 0 auto;
-  width: 80%;  /* Adjusted container width */
+  flex-wrap: wrap; /* Ensures the images stay on one row on larger screens, wrap if too wide */
 }
 
-.team-images img {
-  width: 48%;  /* Ensures each image takes up 48% of the container width */
-  height: auto;
-  object-fit: contain;  /* Maintains aspect ratio without stretching */
-  max-width: 100%; /* Prevents images from getting too large */
+.team-images .team-image {
+  width: 48%; /* Adjusts the width to fit 2 images side by side */
+  height: auto; /* Maintains the aspect ratio */
+  object-fit: cover; /* Ensures the image fills the space without distorting */
 }
+
 
 
 
