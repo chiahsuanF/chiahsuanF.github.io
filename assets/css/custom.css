@@ -21,18 +21,16 @@
 
 .team-images {
   display: flex;
-  justify-content: space-between; /* This will evenly space the images */
-  gap: 15px; /* Adds a bit of space between the images */
-  width: 100%;
-  margin: 0 auto;
-  flex-wrap: wrap; /* Ensures the images stay on one row on larger screens, wrap if too wide */
+  justify-content: space-between;
+  gap: 20px;
 }
 
 .team-images .team-image {
-  width: 48%; /* Adjusts the width to fit 2 images side by side */
-  height: auto; /* Maintains the aspect ratio */
-  object-fit: cover; /* Ensures the image fills the space without distorting */
+  width: 48%;
+  height: auto;
+  object-fit: cover;
 }
+
 
 
 
