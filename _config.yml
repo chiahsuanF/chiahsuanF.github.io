@@ -23,8 +23,7 @@ baseurl : ""
 github:
   is_project_page: false
 title   : CHONG LAB
-description: > 
-  Making sense of biology using Bioinformatics
+description: Making sense of biology using Bioinformatics
 
 
 ## => Language and Timezone
