@@ -34,7 +34,7 @@
 }
 
 .header__title {
-  @include menu(3, 0);
+  @include menu(5, 0);
   @include align-items(center);
   @include flex-wrap(nowrap);
   @include flex(1);
@@ -69,8 +69,8 @@
     margin-right: map-get($spacers, 3);
     vertical-align: middle;
     @include media-breakpoint-down(md) {
-      width: map-get($base, font-size-h4) * 1;
-      height: map-get($base, font-size-h4) * 1;
+      width: map-get($base, font-size-h4) * 1.2;
+      height: map-get($base, font-size-h4) * 1.2;
     }
   }
   & > a {
