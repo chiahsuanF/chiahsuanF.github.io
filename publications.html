@@ -1,1 +1,19 @@
-
+{% assign kaili = site.data.team | where: "name", "Kaili Hu, M.D., MPH" | first %}
+<div style="display: flex; align-items: center; gap: 20px; margin-bottom: 40px;">
+  <img src="{{ kaili.photo }}" alt="{{ kaili.name }}" style="width: 40%; max-width: 300px;" />
+  <div style="max-width: 55%;">
+    <h3>{{ kaili.name }}</h3>
+    <p><strong>Position:</strong> {{ kaili.role }}</p>
+    <p>{{ kaili.bio }}</p>
+    {% if kaili.social %}
+      <p>
+        {% if kaili.social.LinkedIn %}
+          <a href="{{ kaili.social.LinkedIn }}" target="_blank">LinkedIn</a>
+        {% endif %}
+        {% if kaili.social.Site %}
+          | <a href="{{ kaili.social.Site }}" target="_blank">Website</a>
+        {% endif %}
+      </p>
+    {% endif %}
+  </div>
+</div>
