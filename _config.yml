@@ -22,7 +22,7 @@ url     : "https://chiahsuanf.github.io/"
 baseurl : ""
 github:
   is_project_page: false
-title   :00000000000000CHONG LAB0000000000000000
+title   : 00000000000000CHONG LAB0000000000000000
 description: > # this means to ignore newlines until "Language & timezone"
   Making sense of biology using Bioinformatics
 
