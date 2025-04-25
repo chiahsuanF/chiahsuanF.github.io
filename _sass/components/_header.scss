@@ -99,7 +99,7 @@
     }
     .search-button {
       @include media-breakpoint-down(md) {
-        display: none;
+        display: none!important;
       }
     }
   }
