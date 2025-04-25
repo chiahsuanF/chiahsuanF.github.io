@@ -26,10 +26,10 @@
 }
 
 .team-images .team-image {
-  width: 48%;
+  width: 30%; /* Adjust width */
   height: auto;
-  object-fit: cover;
 }
+
 
 
 
