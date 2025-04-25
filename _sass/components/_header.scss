@@ -92,7 +92,7 @@
       padding-bottom: 4px;
       margin: -4px 0 0 0;
     }
-    @include menu(10, 10, nowrap);
+    @include menu(10, 10);
     @include align-items(left);
     @include media-breakpoint-down(md) {
       height: auto;
