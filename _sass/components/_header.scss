@@ -39,7 +39,7 @@
   @include flex-wrap(nowrap);
   @include flex(1);
   height: map-get($layout, header-height);
-  margin-right: map-get($spacers, 3);
+  margin-right: map-get($spacers, 2);
   white-space: nowrap;
   @include media-breakpoint-down(md) {
     height: auto;
@@ -120,4 +120,9 @@
   &::after {
     @include split-line(bottom, 4px, $main-color-1);
   }
+.navigation > ul > .navigation__item > a {
+  font-size: 16px !important;
+  font-family: 'Roboto Slab', serif;
+}
+
 }
