@@ -19,7 +19,9 @@
 text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
 highlight_theme: tomorrow # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
 url     : https://chiahsuanf.github.io/
-baseurl : # does not include hostname
+baseurl : ""
+github:
+  is_project_page: false
 title   : CHONG LAB
 description: > # this means to ignore newlines until "Language & timezone"
   Making sense of biology using Bioinformatics
@@ -29,7 +31,10 @@ description: > # this means to ignore newlines until "Language & timezone"
 ##############################
 lang: # the language of your site, default as "en"
 timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
-
+sass:
+  sass_dir: _sass
+  style: compressed
+  syntax: scss
 
 ## => Author and Social
 ##############################
@@ -64,7 +69,7 @@ repository_tree: "main"
 paths:
   root    : # title link url, "/" (default)
   home    : # home layout url, "/" (default)
-  archive : # "/archive.html" (default)
+  archive : "/archive.html"# "/archive.html" (default)
   rss     : # "/feed.xml" (default)
 
 
@@ -159,7 +164,7 @@ pageview:
 ## => Search
 ##############################
 search:
-  provider: default # "default" (default), false, "google", "custom"
+  provider: "lunr" # "default" (default), false, "google", "custom"
 
   ## Google Custom Search Engine
   google:
