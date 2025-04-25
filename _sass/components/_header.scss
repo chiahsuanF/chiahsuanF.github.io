@@ -17,7 +17,6 @@
   @extend .text--dark;
   background: rgba(#000, .15);
   .navigation__item--active {
-    font-size: 16px;
     &::after {
       @include split-line(bottom, 4px, $text-color-theme-dark);
     }
@@ -70,8 +69,8 @@
     margin-right: map-get($spacers, 3);
     vertical-align: middle;
     @include media-breakpoint-down(md) {
-      width: map-get($base, font-size-h4) * 1.2;
-      height: map-get($base, font-size-h4) * 1.2;
+      width: map-get($base, font-size-h4) * 1;
+      height: map-get($base, font-size-h4) * 1;
     }
   }
   & > a {
