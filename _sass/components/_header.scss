@@ -92,8 +92,8 @@
       padding-bottom: 4px;
       margin: -4px 0 0 0;
     }
-    @include menu(3, 2, nowrap);
-    @include align-items(center);
+    @include menu(10, 2, nowrap);
+    @include align-items(left);
     @include media-breakpoint-down(md) {
       height: auto;
     }
