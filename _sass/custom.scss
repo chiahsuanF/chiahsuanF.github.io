@@ -88,7 +88,7 @@
   display: flex;
   flex-wrap: wrap; /* Permet de passer à la ligne si nécessaire */
   gap: 2rem; /* Ajoute un espace uniforme entre les cartes */
-  justify-content: left; /* Centre les éléments horizontalement *
+  justify-content: center; /* Centre les éléments horizontalement *
 
 /* Carte individuelle de membre */
 .team-card {
@@ -98,7 +98,7 @@
   background: var(--card-bg); /* Utilise une couleur de fond du thème */
   border-radius: var(--border-radius); /* Coins arrondis */
   padding: 1.5rem;
-  text-align: center;
+  text-align: left;
   max-width: 250px; /* Limite la largeur des cartes */
   box-shadow: var(--box-shadow); /* Ombre pour un effet de profondeur */
   transition: transform 0.3s ease; /* Animation au survol */
