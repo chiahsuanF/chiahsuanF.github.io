@@ -1,7 +1,4 @@
 header:
-  - title: "Home"
-    url: "/"
-    key: "home"
   - title: "Research"
     url: "/research/"
     key: "research"
