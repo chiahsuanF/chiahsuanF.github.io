@@ -7,25 +7,25 @@ permalink: /team/
   <h1>Current Member</h1>
 </div>
 
-<div class="team-container">
-  {% for member in site.data.team %}
-    <div class="team-card">
-      <img src="{{ member.photo }}" alt="Photo de {{ member.name }}" class="team-photo">
-      <h3>{{ member.name }}</h3>
-      <p><strong>Position :</strong> {{ member.role }}</p>
-      <p><strong>Bio :</strong> {{ member.bio }}</p>
-      {% if member.social %}
-        <div class="team-socials">
-          {% for platform in member.social %}
-            <a href="{{ platform[1] }}" target="_blank" class="social-link">
-              {{ platform[0] }}
-            </a>
-          {% endfor %}
-        </div>
-      {% endif %}
-    </div>
-  {% endfor %}
-</div>
+
+{% for member in site.data.team %}
+  <div class="team-card">
+    <img src="{{ member.photo }}" alt="Photo de {{ member.name }}" class="team-photo">
+    <h3>{{ member.name }}</h3>
+    <p><strong>Position :</strong> {{ member.role }}</p>
+    <p><strong>Bio :</strong> {{ member.bio }}</p>
+    {% if member.social %}
+      <div class="team-socials">
+        {% for platform in member.social %}
+          <a href="{{ platform[1] }}" target="_blank" class="social-link">
+            {{ platform[0] }}
+          </a>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
+{% endfor %}
+
 
 <div class="partners-hero">
   <h1>Partenaires du projet</h1>
