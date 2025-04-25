@@ -97,7 +97,10 @@
     @include media-breakpoint-down(md) {
       height: auto;
     }
-      
+    .search-button {
+      @include media-breakpoint-down(md) {
+        display: none;
+      }
     }
   }
 }
