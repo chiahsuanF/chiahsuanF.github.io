@@ -18,3 +18,21 @@
   min-width: 250px;
   color: #333;
 }
+
+nav {
+  display: flex;
+  justify-content: center; /* centers the items horizontally */
+  align-items: center;     /* aligns them vertically */
+  gap: 20px;               /* spacing between menu items */
+  padding: 1rem 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #007BFF;
+}
