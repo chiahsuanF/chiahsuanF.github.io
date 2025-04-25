@@ -13,7 +13,11 @@
           {%- include snippets/get-nav-url.html path=_paths_root -%}
           {%- if site.title -%}
             <a title="{%- if site.description -%}{{ site.description }}{%- endif -%}" href="{{ __return }}">{{ site.title }}</a>
+            {%- if site.description -%}
+              <p class="site-description">{{ site.description }}</p>
+            {%- endif -%}
           {%- endif -%}
+
         </div>
         {%- comment -%}
           <button class="button button--secondary button--circle search-button js-search-toggle"><i class="fas fa-search"></i></button>
