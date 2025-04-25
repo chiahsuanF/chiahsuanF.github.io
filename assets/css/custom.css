@@ -21,12 +21,16 @@
 
 .team-images {
   display: flex;
-  gap: 10px; /* Adds space between images */
-  justify-content: center; /* Centers the images */
+  justify-content: space-between;  /* Ensures images are spaced evenly */
+  gap: 20px;  /* Adds space between images */
+  margin: 0 auto;
+  width: 90%; /* Allows images to fit better within the screen width */
 }
 
 .team-images img {
-  width: 49%; /* Each image takes up 49% of the container width */
-  object-fit: cover; /* Ensures images scale well and do not stretch */
+  width: 48%;  /* Ensures images take up 48% of the container width, leaving space for gap */
+  height: auto;
+  object-fit: contain;  /* Keeps aspect ratio without stretching */
 }
+
 
