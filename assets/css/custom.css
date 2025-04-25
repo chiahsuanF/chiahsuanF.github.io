@@ -20,11 +20,13 @@
 }
 
 .team-images {
-  display: flex;               /* Make the container a flexbox */
-  justify-content: space-between; /* Space between the images */
-  gap: 10px;                   /* Space between the images */
+  display: flex;
+  gap: 10px; /* Adds space between images */
+  justify-content: center; /* Centers the images */
 }
 
 .team-images img {
-  width: 48%;                   /* Each image takes up 48% of the width */
+  width: 49%; /* Each image takes up 49% of the container width */
+  object-fit: cover; /* Ensures images scale well and do not stretch */
 }
+
