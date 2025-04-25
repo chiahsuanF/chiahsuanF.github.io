@@ -23,6 +23,6 @@
 
 - name: "Chia-Hsuan Fan, M.S."
   role: "Staff"
-  photo: ""/assets/images/logo/team/fan.jpg"
+  photo: "/assets/images/logo/team/fan.jpg"
   bio: "Chia-Hsuan is a current a staff member in the lab. He graduated from the University of Alabama at Birmingham with a master’s Degree in Biotechnology. During 2023-2024, he did his intership in Department of Biomedical Informatics and Data Science. He is currently working on Mitochondria DNA data analysis using the Third Generation Sequencing data."
 
