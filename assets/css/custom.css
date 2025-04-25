@@ -24,13 +24,15 @@
   justify-content: space-between;  /* Ensures images are spaced evenly */
   gap: 20px;  /* Adds space between images */
   margin: 0 auto;
-  width: 90%; /* Allows images to fit better within the screen width */
+  width: 80%;  /* Adjusted container width */
 }
 
 .team-images img {
-  width: 48%;  /* Ensures images take up 48% of the container width, leaving space for gap */
+  width: 48%;  /* Ensures each image takes up 48% of the container width */
   height: auto;
-  object-fit: contain;  /* Keeps aspect ratio without stretching */
+  object-fit: contain;  /* Maintains aspect ratio without stretching */
+  max-width: 100%; /* Prevents images from getting too large */
 }
+
 
 
