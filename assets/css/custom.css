@@ -20,15 +20,17 @@
 }
 
 .team-images {
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
+  display: flex !important;
+  justify-content: space-between !important;
+  gap: 20px !important;
 }
 
 .team-images .team-image {
-  width: 30%; /* Adjust width */
-  height: auto;
+  width: 48% !important;
+  height: auto !important;
+  object-fit: cover !important;
 }
+
 
 
 
