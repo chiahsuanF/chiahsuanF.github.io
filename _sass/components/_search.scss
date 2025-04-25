@@ -14,7 +14,7 @@
 }
 
 .search__header {
-  margin-top: map-get($spacers, 4);
+  margin-top: map-get($spacers, 2);
   font-size: map-get($base, font-size-h1);
   font-weight: map-get($base, font-weight-bold);
   color: $text-color-d;
