@@ -31,17 +31,3 @@ permalink: /team/
   <h1>Partenaires du projet</h1>
 </div>
 
-<div class="partners-container">
-  {% for partner in site.data.partners %}
-    <div class="partner-card">
-      <img src="{{ partner.logo }}" alt="Logo de {{ partner.name }}" class="partner-logo">
-      <h4>{{ partner.name }}</h4>
-      <p>{{ partner.role }}</p>
-      {% if partner.website %}
-        <a href="{{ partner.website }}" target="_blank" class="partner-link">
-          Site
-        </a>
-      {% endif %}
-    </div>
-  {% endfor %}
-</div>
