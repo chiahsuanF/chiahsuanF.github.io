@@ -88,7 +88,8 @@
   display: flex;
   flex-wrap: wrap; /* Permet de passer à la ligne si nécessaire */
   gap: 2rem; /* Ajoute un espace uniforme entre les cartes */
-  justify-content: center; /* Centre les éléments horizontalement *
+  justify-content: center; /* Centre les éléments horizontalement */
+}
 
 /* Carte individuelle de membre */
 .team-card {
