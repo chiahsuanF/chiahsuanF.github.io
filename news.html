@@ -9,7 +9,7 @@ permalink: /news/
   {% assign years = site.data.news | map: "year" | uniq | sort | reverse %}
   {% for year in years %}
     <h2>{{ year }}</h2>
-    {% assign months = site.data.news | where: "year", year | map: "month" %}
+    {% assign months = site.data.news | where: "year", year | map: "month" | uniq %}
     {% for month in months %}
       <h3>{{ month }}</h3>
       <ul>
@@ -17,7 +17,11 @@ permalink: /news/
           {% if news_item.year == year and news_item.month == month %}
             <li>
               - {{ news_item.title }}<br>
-              <a href="{{ news_item.link }}" target="_blank">PowerTalk</a>
+              {% if news_item.photo %}
+                <img src="{{ news_item.photo }}" alt="News Image" style="max-width:300px;">
+              {% elsif news_item.link %}
+                <a href="{{ news_item.link }}" target="_blank">PowerTalk</a>
+              {% endif %}
             </li>
           {% endif %}
         {% endfor %}
