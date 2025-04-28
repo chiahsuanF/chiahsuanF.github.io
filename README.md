@@ -75,18 +75,19 @@ Edit here: [software.yml](https://github.com/chiahsuanF/chiahsuanF.github.io/blo
 
 
 ## Team format
-Edit here: [team.yml](https://github.com/chiahsuanF/chiahsuanF.github.io/blob/master/_data/team.yml)
+Edit here: [team.yml](https://github.com/chiahsuanF/chiahsuanF.github.io/blob/master/_data/team.yml) <br />
+Edit photo: [team_member](https://github.com/chiahsuanF/chiahsuanF.github.io/tree/master/team_member)
 ```
 - name: ""
   role: ""
-  photo: "/assets/images/logo/team/PHOTO"
+  photo: "team_member/PHOTO"
   bio: ""
 ```
 #### example
 ```
 - name: "Jane Goodall, Ph.D."
   role: "Study of chimpanzees"
-  photo: "/assets/images/logo/team/PHOTO"
+  photo: "team_member/PHOTO"
   bio: "Dame Jane Morris Goodall is an English zoologist, primatologist and anthropologist."
 ```
 [CHONG LAB TEAM](https://chiahsuanf.github.io/team/)
