@@ -1,0 +1,42 @@
+import yaml
+
+# Load YAML file
+with open('chiahsuanF.github.io/_data/publication.yml', 'r') as f:
+    publications = yaml.safe_load(f)
+
+# Group publications by year
+from collections import defaultdict
+pub_by_year = defaultdict(list)
+for pub in publications:
+    pub_by_year[pub['year']].append(pub)
+
+# Sort years descending
+years = sorted(pub_by_year.keys(), reverse=True)
+
+# Build HTML
+html_output = []
+
+# Top links
+html_output.append('<p>')
+html_output.append('<a href="#all">All</a> | ' + ' | '.join(f'<a href="#{year}">{year}</a>' for year in years))
+html_output.append('</p>')
+html_output.append('\n')
+
+html_output.append('<div id="all">')
+for year in years:
+    html_output.append(f'  <h3 id="{year}">{year}</h3>')
+    html_output.append('  <ul>')
+    for pub in pub_by_year[year]:
+        html_output.append('    <li>')
+        html_output.append(f'      {pub["author"]}<br>')
+        html_output.append(f'      <em>{pub["title"]}</em><br>')
+        html_output.append(f'      <strong>{pub["journal"]}</strong><br>')
+        html_output.append(f'      <a href="{pub["doi"]}" target="_blank">[Abstract]</a>')
+        html_output.append('    </li>')
+    html_output.append('  </ul>')
+    html_output.append('\n')
+html_output.append('</div>')
+
+# Save to file
+with open('publications.html', 'w') as f:
+    f.write('\n'.join(html_output))
