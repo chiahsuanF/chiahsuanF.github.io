@@ -3,14 +3,16 @@ layout: page
 permalink: /album/
 ---
 
-<div class="publications">
+
+<div class="album-page">
   <h1>Album</h1>
 
-  {% for photo in site.data.album %}
+  {% for item in site.data.album %}
     <div style="margin-bottom: 40px;">
-      <img src="/album/{{ photo.image }}" alt="{{ photo.title }}" style="width: 100%; height: auto; border-radius: 8px;" />
-      <p style="margin-top: 10px; font-weight: bold;">{{ photo.title }}</p>
+      <img src="/{{ item.photo }}" alt="{{ item.descript }}" style="width: 100%; height: auto; border-radius: 8px;" />
+      <p style="margin-top: 10px; font-weight: bold;">{{ item.descript }}</p>
     </div>
   {% endfor %}
 </div>
+
 
