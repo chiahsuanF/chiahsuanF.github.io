@@ -9,7 +9,7 @@ permalink: /album/
 
   {% for item in site.data.album %}
     <div style="margin-bottom: 40px;">
-      <img src="/{{ item.photo }}" alt="{{ item.descript }}" style="width: 100%; height: auto; border-radius: 8px;" />
+      <img src="/{{ item.photo }}" alt="{{ item.descript }}" style="width: 50%; height: auto; border-radius: 8px;" />
       <p style="margin-top: 10px; font-weight: bold;">{{ item.descript }}</p>
     </div>
   {% endfor %}
