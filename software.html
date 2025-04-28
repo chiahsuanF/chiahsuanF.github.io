@@ -1,51 +1,42 @@
 ---
 layout: page
-permalink: /software/
+permalink: /album/
 ---
 
 <div class="publications">
-  <h1>Publications</h1>
+  <h1>software_test</h1>
+  
   <!-- Scholar Link -->
   <p>
-    Visit <a href="https://github.com/ChongLab">Zechen Chong Lab Github</a> for full list.
+    Visit <a href="https://github.com/ChongLab" target="_blank">Zechen Chong Lab Github</a> for full list.
   </p>
   
   <br>
-  
+
   <!-- Navigation Tags -->
   <p>
-    <a href="#all">All</a> |
-    <a href="#ClipSV">ClipSV</a> |
-    <a href="#MRLR">MRLR</a>
+    <a href="#all">All</a>
+    {% assign tags = site.data.software | map: "tag" %}
+    {% for tag in tags %}
+      | <a href="#{{ tag }}">{{ tag }}</a>
+    {% endfor %}
   </p>
   
   <br>
 
-  <!-- Publications List -->
+  <!-- Software List -->
   <div id="all">
-    <h3 id="ClipSV">ClipSV</h3>
-    <ul>
-      <li>      
-        ClipSV is a novel method for SV detection based on read extension, spliced alignment, and local assembly. 
-        <br>
-        The source code and documentation can be downloaded 
-        <a href="https://github.com/ChongLab/ClipSV" target="_blank">[here].</a>
-        <br>
-         Write to Peng Xu should you have any questions.
-      </li>
-    </ul>
-
-    
-    <h3 id="MRLR">MRLR</h3>
-    <ul>
-      <li>      
-        MRLR is a pipeline to identify meiotic recombination events using trio samples of whole genome 10X Genomics sequencing data. 
-        <br>
-        The source code and documentation can be downloaded 
-        <a href="https://github.com/ChongLab/MRLR" target="_blank">[here].</a>
-        <br>
-         Write to Peng Xu should you have any questions.
-      </li>
-    </ul>
+    {% for software in site.data.software %}
+      <h3 id="{{ software.tag }}">{{ software.name }}</h3>
+      <ul>
+        <li>
+          {{ software.description }}
+          <br>
+          <p>The source code and documentation can be downloaded </p>
+          <a href="{{ software.download2 }}" target="_blank">[here]</a>.
+          {{ software.question }}
+        </li>
+      </ul>
+    {% endfor %}
   </div>
 </div>
