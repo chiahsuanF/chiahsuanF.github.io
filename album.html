@@ -3,42 +3,20 @@ layout: page
 permalink: /album/
 ---
 
+---
+layout: page
+permalink: /album/
+---
+
 <div class="publications">
-  <h1>software_test</h1>
-  
-  <!-- Scholar Link -->
-  <p>
-    Visit <a href="https://github.com/ChongLab" target="_blank">Zechen Chong Lab Github</a> for full list.
-  </p>
-  
-  <br>
+  <h1>Album</h1>
 
-  <!-- Navigation Tags -->
-  <p>
-    <a href="#all">All</a>
-    {% assign tags = site.data.software | map: "tag" %}
-    {% for tag in tags %}
-      | <a href="#{{ tag }}">{{ tag }}</a>
-    {% endfor %}
-  </p>
-  
-  <br>
-
-  <!-- Software List -->
-  <div id="all">
-    {% for software in site.data.software %}
-      <h3 id="{{ software.tag }}">{{ software.name }}</h3>
-      <ul>
-        <li>
-          {{ software.description }}
-          <br>
-          <p>The source code and documentation can be downloaded 
-          <a href="{{ software.download2 }}" target="_blank">[here]</a>.
-          </p>
-          <br>
-          {{ software.question }}
-        </li>
-      </ul>
+  <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
+    {% for photo in site.data.album %}
+      <div style="width: 45%; text-align: center; margin-bottom: 30px;">
+        <img src="/album/{{ photo.image }}" alt="{{ photo.title }}" style="width: 100%; height: auto; border-radius: 10px;" />
+        <p style="margin-top: 10px;">{{ photo.title }}</p>
+      </div>
     {% endfor %}
   </div>
 </div>
