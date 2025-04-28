@@ -9,19 +9,24 @@ Edit here: [news.yml](https://github.com/chiahsuanF/chiahsuanF.github.io/blob/ma
   month: 
   title: "" 
   link: ""
+  phtot: "/assets/images/logo/news/PHOTO"
 ```
 
 #### example
 ```
-- year: 2025 
-  month: APRIL 
+- year: 2025
+  month: APRIL
   title: "Subtyping Non-Medical Drivers of Health: From AI to Advocacy"
+  photo: "/assets/images/logo/news/Picture1.png"
+
+- year: 2025
+  month: MARCH
+  title: "Metabolomics and Data Science: Data Structure, Interpretation, and Discovery"
   link: "https://www.uab.edu/medicine/informatics/education/biomedical-informatics-powertalk-series"
 
-- year: 2024 
-  month: JUNE 
-  title: "hello world!" 
-  link: "#"
+- year: 2024
+  month: JUNE
+  title: "hello world!"
 ```
 [CHONG LAB NEWS](https://chiahsuanf.github.io/news/)
 
