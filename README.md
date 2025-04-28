@@ -94,3 +94,20 @@ Edit photo: [team_member](https://github.com/chiahsuanF/chiahsuanF.github.io/tre
 
 
 
+## Album format
+Edit here: [album.yml](https://github.com/chiahsuanF/chiahsuanF.github.io/blob/master/_data/album.yml) <br />
+Edit photo: [album photo](https://github.com/chiahsuanF/chiahsuanF.github.io/tree/master/album)
+```
+- descript: 
+  photo: album/PHOTO
+```
+#### example
+```
+- descript: 2024 ASHG 
+  photo: album/2024_ASHG.JPG
+```
+[CHONG LAB ALBUM](https://chiahsuanf.github.io/album/)
+
+
+
+
