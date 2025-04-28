@@ -4,18 +4,24 @@ permalink: /news/
 ---
 
 <div class="publications">
-  <h1>2025</h1>
-  <h3>APRIL</h3>
-  <p>- (test1)Subtyping Non-Medical Drivers of Health: From AI to Advocacy
-</p>
-  <a href="https://www.uab.edu/medicine/informatics/education/biomedical-informatics-powertalk-series">PowerTalk</a>
-  <h3>MARCH</h3>
-  <p>-(test2)Metabolomics and Data Science: Data Structure, Interpretation, and Discovery
-</p>
-  <a href="https://www.uab.edu/medicine/informatics/education/biomedical-informatics-powertalk-series">PowerTalk</a>
+  <h1>News</h1>
 
-  <h1>2024</h1>
-  <h3>JUNE</h3>
-  <p>-(test3) hello world!
-</p>
+  {% assign years = site.data.news | map: "year" | uniq | sort | reverse %}
+  {% for year in years %}
+    <h2>{{ year }}</h2>
+    {% assign months = site.data.news | where: "year", year | map: "month" %}
+    {% for month in months %}
+      <h3>{{ month }}</h3>
+      <ul>
+        {% for news_item in site.data.news %}
+          {% if news_item.year == year and news_item.month == month %}
+            <li>
+              - {{ news_item.title }}<br>
+              <a href="{{ news_item.link }}" target="_blank">PowerTalk</a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    {% endfor %}
+  {% endfor %}
 </div>
