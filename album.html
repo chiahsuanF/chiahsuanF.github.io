@@ -3,20 +3,14 @@ layout: page
 permalink: /album/
 ---
 
----
-layout: page
-permalink: /album/
----
-
 <div class="publications">
   <h1>Album</h1>
 
-  <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
-    {% for photo in site.data.album %}
-      <div style="width: 45%; text-align: center; margin-bottom: 30px;">
-        <img src="/album/{{ photo.image }}" alt="{{ photo.title }}" style="width: 100%; height: auto; border-radius: 10px;" />
-        <p style="margin-top: 10px;">{{ photo.title }}</p>
-      </div>
-    {% endfor %}
-  </div>
+  {% for photo in site.data.album %}
+    <div style="margin-bottom: 40px;">
+      <img src="/album/{{ photo.image }}" alt="{{ photo.title }}" style="width: 100%; height: auto; border-radius: 8px;" />
+      <p style="margin-top: 10px; font-weight: bold;">{{ photo.title }}</p>
+    </div>
+  {% endfor %}
 </div>
+
