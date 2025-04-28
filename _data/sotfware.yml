@@ -1,14 +1,13 @@
-
 - tag: ClipSV
   name: ClipSV
-  discript: ClipSV is a novel method for SV detection based on read extension, spliced alignment, and local assembly. 
-  download1: The source code and documentation can be downloaded 
+  description: ClipSV is a novel method for SV detection based on read extension, spliced alignment, and local assembly. 
+  download1: The source code and documentation can be downloaded
   download2: https://doi.org/10.1101/2024.07.22.604443
   question: Write to Peng Xu should you have any questions.
 
 - tag: MRLR
   name: MRLR
-  discript: MRLR is a pipeline to identify meiotic recombination events using trio samples of whole genome 10X Genomics sequencing data. 
-  download1: The source code and documentation can be downloaded 
+  description: MRLR is a pipeline to identify meiotic recombination events using trio samples of whole genome 10X Genomics sequencing data.
+  download1: The source code and documentation can be downloaded
   download2: https://github.com/ChongLab/MRLR
   question: Write to Peng Xu should you have any questions.
