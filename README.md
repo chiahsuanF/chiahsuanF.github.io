@@ -2,14 +2,14 @@
 
 
 ## News format
-Edit here: [news.yml](https://github.com/chiahsuanF/chiahsuanF.github.io/blob/master/_data/news.yml)
-
+Edit here: [news.yml](https://github.com/chiahsuanF/chiahsuanF.github.io/blob/master/_data/news.yml)  <br />
+Edit photo: [news_photo](https://github.com/chiahsuanF/chiahsuanF.github.io/tree/master/news_photo)
 ```
 - year: 
   month: 
   title: "" 
   link: ""
-  phtot: "/assets/images/logo/news/PHOTO"
+  phtot: "news_photo/PHOTO"
 ```
 
 #### example
