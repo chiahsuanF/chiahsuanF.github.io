@@ -17,7 +17,7 @@ Edit photo: [news_photo](https://github.com/chiahsuanF/chiahsuanF.github.io/tree
 - year: 2025
   month: APRIL
   title: "Subtyping Non-Medical Drivers of Health: From AI to Advocacy"
-  photo: "/assets/images/logo/news/Picture1.png"
+  photo: "news_photo/PHOTO.png"
 
 - year: 2025
   month: MARCH
