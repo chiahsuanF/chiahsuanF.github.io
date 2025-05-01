@@ -10,12 +10,6 @@
   title: Deciphering the exact breakpoints of structural variations using long sequencing reads with DeBreak.
   journal: Nat Commun. 2023 Jan 17;14(1):283
   doi: https://www.nature.com/articles/s41467-023-35996-1
-  
-- year: 2022
-  author: Chen Y, Wang Y, Chen W, Tan Z, Song Y, Human Genome Structural Variation Consortium N, Chen H, Chong Z.  
-  title: Gene fusion detection and characterization in long-read cancer transcriptome sequencing data with FusionSeeker.
-  journal: Cancer Res. 2022 Nov 1:CAN-22-1628
-  doi: https://pmc.ncbi.nlm.nih.gov/articles/PMC9812290/
 
 - year: 2024
   author: Huang F, Xu P, Yue Z, Song Y, Hu K, Zhao X, Gao M, Chong Z.
@@ -167,24 +161,185 @@
   journal: Hum Mutat. 2018 Jul;39(7):939-946.
   doi: https://pubmed.ncbi.nlm.nih.gov/29696747/
 
+- year: 2018
+  author: Grzeskowiak CL, Kundu ST, Mo X, Ivanov AA, Zagorodna O, Lu H, Chapple RH, Tsang YH, Moreno D, Mosqueda M, Eterovic K, Fradette JJ, Ahmad S, Chen F, Chong Z, Chen K, Creighton CJ, Fu H, Mills GB, Gibbons DL, Scott KL.
+  title: In vivo screening identifies GATAD2B as a metastasis driver in KRAS-driven lung cancer.
+  journal: Nat Commun. 2018 Jul 16;9(1):2732
+  doi: https://pubmed.ncbi.nlm.nih.gov/30013058/
 
+- year: 2018
+  author: Zhu W, Zhang E, Zhao M, Chong Z, Fan C, Tang Y, Hunter JD, Borovjagin AV, Walcott GP, Chen JY, Qin G, Zhang J.
+  title: Regenerative Potential of Neonatal Porcine Hearts.
+  journal: Circulation. 2018 Jul 20
+  doi: https://pubmed.ncbi.nlm.nih.gov/30030418/
 
+- year: 2018
+  author: Chong Z, Chen K. 
+  title: Structural Variant Breakpoint Detection with novoBreak.
+  journal: Methods Mol Biol. 2018;1833:129-141
+  doi: https://pubmed.ncbi.nlm.nih.gov/30039369/
 
+- year: 2018
+  author: Lee AY, Ewing AD, Ellrott K, Hu Y, Houlahan KE, Bare JC, Espiritu SMG, Huang V, Dang K, Chong Z, Caloian C, Yamaguchi TN; ICGC-TCGA DREAM Somatic Mutation Calling Challenge Participants, Kellen MR, Chen K, Norman TC, Friend SH, Guinney J, Stolovitzky G, Haussler D, Margolin AA, Stuart JM, Boutros PC.
+  title: Combining accurate tumor genome simulation with crowdsourcing to benchmark somatic structural variant detection.
+  journal: Genome Biol. 2018 Nov 6;19(1):188
+  doi: https://pubmed.ncbi.nlm.nih.gov/30400818/
 
+- year: 2019
+  author: Beck CR, Carvalho CMB, Akdemir ZC, Sedlazeck FJ, Song X, Meng Q, Hu J, Doddapaneni H, Chong Z, Chen ES, Thornton PC, Liu P, Yuan B, Withers M, Jhangiani SN, Kalra D, Walker K, English AC, Han Y, Chen K, Muzny DM, Ira G, Shaw CA, Gibbs RA, Hastings PJ, Lupski JR.
+  title: Megabase Length Hypermutation Accompanies Human Structural Variation at 17p11.2.
+  journal: Cell. 2019 Mar 7;176(6):1310-1324.e10
+  doi: https://pubmed.ncbi.nlm.nih.gov/30827684/
 
+- year: 2019
+  author: Chaisson MJP, Sanders AD, Zhao X, Malhotra A, Porubsky D, Rausch T, Gardner EJ, Rodriguez OL, Guo L, Collins RL, Fan X, Wen J, Handsaker RE, Fairley S, Kronenberg ZN, Kong X, Hormozdiari F, Lee D, Wenger AM, Hastie AR, Antaki D, Anantharaman T, Audano PA, Brand H, Cantsilieris S, Cao H, Cerveira E, Chen C, Chen X, Chin CS, Chong Z, Chuang NT, Lambert CC, Church DM, Clarke L, Farrell A, Flores J, Galeev T, Gorkin DU, Gujral M, Guryev V, Heaton WH, Korlach J, Kumar S, Kwon JY, Lam ET, Lee JE, Lee J, Lee WP, Lee SP, Li S, Marks P, Viaud-Martinez K, Meiers S, Munson KM, Navarro FCP, Nelson BJ, Nodzak C, Noor A, Kyriazopoulou-Panagiotopoulou S, Pang AWC, Qiu Y, Rosanio G, Ryan M, Stütz A, Spierings DCJ, Ward A, Welch AE, Xiao M, Xu W, Zhang C, Zhu Q, Zheng-Bradley X, Lowy E, Yakneen S, McCarroll S, Jun G, Ding L, Koh CL, Ren B, Flicek P, Chen K, Gerstein MB, Kwok PY, Lansdorp PM, Marth GT, Sebat J, Shi X, Bashir A, Ye K, Devine SE, Talkowski ME, Mills RE, Marschall T, Korbel JO, Eichler EE, Lee C.
+  title: Multi-platform discovery of haplotype-resolved structural variation in human genomes.
+  journal: Nat Commun. 2019 Apr 16;10(1):1784
+  doi: https://pubmed.ncbi.nlm.nih.gov/30992455/
 
+- year: 2019
+  author: Guo G, Chen H, Yan D, Cheng J, Chen J, Chong Z.
+  title: Scalable De Novo Genome Assembly Using a Pregel-Like Graph-Parallel System.
+  journal: IEEE/ACM Trans Comput Biol Bioinform. 2019 Jun 5
+  doi: https://pubmed.ncbi.nlm.nih.gov/31180898/
 
+- year: 2019
+  author: Xu P, Kennell T, Gao M; Human Genome Structural Variation Consortium, Kimberly R, Chong Z.
+  title: "MRLR: unraveling high-resolution meiotic recombination by linked reads."
+  journal: Bioinformatics. 2019 Jun 19
+  doi: https://pubmed.ncbi.nlm.nih.gov/31214684/
 
+- year: 2020
+  author: Sulovari A, Li R, Audano PA, Porubsky D, Vollger MR, Logsdon GA; Human Genome Structural Variation Consortium (including Chong Z), Warren WC, Pollen AA, Chaisson MJP, Eichler EE.
+  title: Human-specific tandem repeat expansion and differential gene expression during primate evolution.
+  journal: Proc Natl Acad Sci U S A. 2019 Nov 12;116(46):23243-23253
+  doi: https://pubmed.ncbi.nlm.nih.gov/31659027/
 
+- year: 2020
+  author: "Kessler MD, Loesch DP, Perry JA, Heard-Costa NL, Taliun D, Cade BE, Wang H, Daya M, Ziniti J, Datta S, Celedón JC, Soto-Quiros ME, Avila L, Weiss ST, Barnes K, Redline SS, Vasan RS, Johnson AD, Mathias RA, Hernandez R, Wilson JG, Nickerson DA, Abecasis G, Browning SR, Zöllner S, O’Connell JR, Mitchell BD; National Heart, Lung, and Blood Institute Trans-Omics for Precision Medicine (TOPMed) Consortium (including Chong Z); TOPMed Population Genetics Working Group, O’Connor TD."
+  title: De novo mutations across 1,465 diverse genomes reveal mutational insights and reductions in the Amish founder population. 
+  journal: Proc Natl Acad Sci U S A. 2020 Feb 4;117(5):2560-2569
+  doi: https://pubmed.ncbi.nlm.nih.gov/31964835/
 
+- year: 2020
+  author: Shanta O, Noor A; Human Genome Structural Variation Consortium (HGSVC, including Chong Z), Sebat J.
+  title: The effects of common structural variants on 3D chromatin structure.
+  journal: BMC Genomics. 2020 Jan 30;21(1):95
+  doi: https://pubmed.ncbi.nlm.nih.gov/32000688/
 
+- year: 2020
+  author: "Rodriguez-Martin B, Alvarez EG, Baez-Ortega A, Zamora J, Supek F, Demeulemeester J, Santamarina M, Ju YS, Temes J, Garcia-Souto D, Detering H, Li Y, Rodriguez-Castro J, Dueso-Barroso A, Bruzos AL, Dentro SC, Blanco MG, Contino G, Ardeljan D, Tojo M, Roberts ND, Zumalave S, Edwards PAW, Weischenfeldt J, Puiggròs M, Chong Z, Chen K, Lee EA, Wala JA, Raine K, Butler A, Waszak SM, Navarro FCP, Schumacher SE, Monlong J, Maura F, Bolli N, Bourque G, Gerstein M, Park PJ, Wedge DC, Beroukhim R, Torrents D, Korbel JO, Martincorena I, Fitzgerald RC, Van Loo P, Kazazian HH, Burns KH; PCAWG Structural Variation Working Group, Campbell PJ, Tubio JMC; PCAWG Consortium."
+  title: Pan-cancer analysis of whole genomes identifies driver rearrangements promoted by LINE-1 retrotransposition.
+  journal: Nat Genet. 2020 Mar;52(3):306-319
+  doi: https://pubmed.ncbi.nlm.nih.gov/32024998/
 
+- year: 2020
+  author: "ICGC/TCGA Pan-Cancer Analysis of Whole Genomes Consortium (including Chong Z)."
+  title: Pan-cancer analysis of whole genomes.
+  journal: Nature. 2020 Feb;578(7793):82-93
+  doi: https://pubmed.ncbi.nlm.nih.gov/32025007/
 
-  
+- year: 2020
+  author: Liu RM, Chong Z, Chen JC.
+  title: Ozone and Particulate Matter Exposure and Alzheimer’s Disease: A Review of Human and Animal Studies.
+  journal: J Alzheimers Dis. 2020;76(3):807-824
+  doi: https://pubmed.ncbi.nlm.nih.gov/32568209/
 
+- year: 2020
+  author: "Li CH, Prokopec SD, Sun RX, Yousif F, Schmitz N; PCAWG Tumour Subtypes and Clinical Translation, Boutros PC; PCAWG Consortium (including Chong Z)."
+  title: Sex differences in oncogenic mutational processes.
+  journal: Nat Commun. 2020 Aug 28;11(1):4330
+  doi: https://pubmed.ncbi.nlm.nih.gov/32859912/
 
+- year: 2020
+  author: "Bailey MH, Meyerson WU, Dursi LJ, Wang LB, Dong G, Liang WW, Weerasinghe A, Li S, Li Y, Kelso S; MC3 Working Group; PCAWG novel somatic mutation calling methods working group, Saksena G, Ellrott K, Wendl MC, Wheeler DA, Getz G, Simpson JT, Gerstein MB, Ding L; PCAWG Consortium (including Chong Z)."
+  title: Retrospective evaluation of whole exome and genome mutation calls in 746 cancer samples.
+  journal: Nat Commun. 2020 Sep 21;11(1):4748
+  doi: https://pubmed.ncbi.nlm.nih.gov/32958763/
 
+- year: 2021
+  author: Xu P, Chen Y, Gao M, Chong Z.
+  title: "ClipSV: improving structural variation detection by read extension, spliced alignment and tree-based decision rules."
+  journal: NAR Genom Bioinform. 2021 Feb 1;3(1):lqab003
+  doi: https://pubmed.ncbi.nlm.nih.gov/33554118/
 
+- year: 2021
+  author: "Ebert P, Audano PA, Zhu Q, Rodriguez-Martin B, Porubsky D, Bonder MJ, Sulovari A, Ebler J, Zhou W, Serra Mari R, Yilmaz F, Zhao X, Hsieh P, Lee J, Kumar S, Lin J, Rausch T, Chen Y, Ren J, Santamarina M, Höps W, Ashraf H, Chuang NT, Yang X, Munson KM, Lewis AP, Fairley S, Tallon LJ, Clarke WE, Basile AO, Byrska-Bishop M, Corvelo A, Evani US, Lu TY, Chaisson MJP, Chen J, Li C, Brand H, Wenger AM, Ghareghani M, Harvey WT, Raeder B, Hasenfeld P, Regier AA, Abel HJ, Hall IM, Flicek P, Stegle O, Gerstein MB, Tubio JMC, Mu Z, Li YI, Shi X, Hastie AR, Ye K, Chong Z, Sanders AD, Zody MC, Talkowski ME, Mills RE, Devine SE, Lee C, Korbel JO, Marschall T, Eichler EE."
+  title: Haplotype-resolved diverse human genomes and integrated analysis of structural variation.
+  journal: Science. 2021 Feb 25:eabf7117
+  doi: https://pubmed.ncbi.nlm.nih.gov/33632895/
+
+- year: 2021
+  author: "Lin J, Yang X, Kosters W, Xu T, Jia Y, Wang S, Zhu Q, Ryan M, Guo L, Zhang C; Human Genome Structural Variation Consortium (including Chong Z), Lee C, Devine SE, Eichler EE, Ye K."
+  title: "Mako: A Graph-based Pattern Growth Approach to Detect Complex Structural Variants. Genomics Proteomics Bioinformatics."
+  journal: 2021 Jul 3:S1672-0229(21)00143-1
+  doi: https://pubmed.ncbi.nlm.nih.gov/34224879/
+
+- year: 2021
+  author: Zhang Z, Luo L, Xing C, Chen Y, Xu P, Li M, Zeng L, Li C, Ghosh S, Della Manna D, Townes T, Britt WJ, Wajapeyee N, Sleckman BP, Chong Z, Leavenworth JW, Yang ES.
+  title: "RNF2 ablation reprograms the tumor-immune microenvironment and stimulates durable NK and CD4+ T-cell-dependent antitumor immunity."
+  journal: Nat Cancer. 2021 Oct;2(10):1018-1038
+  doi: https://pubmed.ncbi.nlm.nih.gov/35121884/
+
+- year: 2021
+  author: Chen Y, Zhang Y, Wang AY, Gao M, Chong Z.
+  title: Accurate long-read de novo assembly evaluation with Inspector.
+  journal: Genome Biol. 2021 Nov 14;22(1):312
+  doi: https://pubmed.ncbi.nlm.nih.gov/34775997/
+
+- year: 2022
+  author: Huang F, Xiao L, Gao M, Vallely EJ, Dybvig K, Atkinson TP, Waites KB, Chong Z.
+  title: "B-assembler: a circular bacterial genome assembler."
+  journal: BMC Genomics. 2022 May 11;23(Suppl 4):361
+  doi: https://pubmed.ncbi.nlm.nih.gov/35546658/
+
+- year: 2022
+  author: Wang J, Thomas HR, Chen Y, Percival SM, Waldrep SC, Ramaker RC, Thompson RG, Cooper SJ, Chong Z, Parant JM.
+  title: Reduced sister chromatid cohesion acts as a tumor penetrance modifier.
+  journal: PLoS Genet. 2022 Aug 22;18(8):e1010341
+  doi: https://pubmed.ncbi.nlm.nih.gov/35994499/
+
+- year: 2022
+  author: Shen H, Huang F, Zhang X, Ojo OA, Li Y, Trummell HQ, Anderson JC, Fiveash J, Bredel M, Yang ES, Willey CD, Chong Z, Bonner JA, Shi LZ.
+  title: Selective suppression of melanoma lacking IFN-γ pathway by JAK inhibition depends on T cells and host TNF signaling.
+  journal: Nat Commun. 2022 Aug 25;13(1):5013
+  doi: https://pubmed.ncbi.nlm.nih.gov/36008408/
+
+- year: 2022
+  author: Byrska-Bishop M, Evani US, Zhao X, Basile AO, Abel HJ, Regier AA, Corvelo A, Clarke WE, Musunuri R, Nagulapalli K, Fairley S, Runnels A, Winterkorn L, Lowy E; Human Genome Structural Variation Consortium (including Chong Z), Paul Flicek, Germer S, Brand H, Hall IM, Talkowski ME, Narzisi G, Zody MC.
+  title: High-coverage whole-genome sequencing of the expanded 1000 Genomes Project cohort including 602 trios.
+  journal: Cell. 2022 Sep 1;185(18):3426-3440.e19
+  doi: https://pubmed.ncbi.nlm.nih.gov/36055201/
+
+- year: 2022
+  author: Zhao X, Chong Z, Chen Y, Zheng XL, Wang QF, Li Y.
+  title: "Protein arginine methyltransferase 1 in the generation of immune megakaryocytes: A perspective review."
+  journal:  Biol Chem. 2022 Sep 21;298(11):102517
+  doi: https://pubmed.ncbi.nlm.nih.gov/36152748/
+
+- year: 2022
+  author: Chen Y, Wang Y, Chen W, Tan Z, Song Y, Human Genome Structural Variation Consortium N, Chen H, Chong Z.
+  title: Gene fusion detection and characterization in long-read cancer transcriptome sequencing data with FusionSeeker.
+  journal: Cancer Res. 2022 Nov 1:CAN-22-1628
+  doi: https://pmc.ncbi.nlm.nih.gov/articles/PMC9812290/
+
+- year: 2024
+  author: Hale AT, Boudreau H, Devulapalli R, Duy PQ, Atchley TJ, Dewan MC, Goolam M, Fieggen G, Spader HL, Smith AA, Blount JP, Johnston JM, Rocque BG, Rozzelle CJ, Chong Z, Strahle JM, Schiff SJ, Kahle KT.
+  title: "The genetic basis of hydrocephalus: genes, pathways, mechanisms, and global impact."
+  journal: Fluids Barriers CNS. 2024 Mar 4;21(1):24
+  doi: https://pubmed.ncbi.nlm.nih.gov/38439105/
+
+- year: 2024
+  author: Chong Z, Huang F, McLeod MC, Irwin RK, Smithson M, Yue Z, Gao M, Hardiman KM.
+  title: Molecular differentiation between complete and incomplete responders to neoadjuvant therapy in rectal cancer
+  journal: Res Sq. 2024 Jul 1:rs.3.rs-4456000
+  doi: https://pubmed.ncbi.nlm.nih.gov/39011117/
+
+- year: 2025
+  author: Guo Y, Song Y, Jiang L, Chen Y, Ceccarelli M, Gao M, Chong Z.
+  title: "Protocol: a detailed guide to assess genome assembly based on long-read sequencing data."
+  journal: Nature Protocol
+  doi: https://www.nature.com/articles/s41596-025-01149-5
 
 
 
