@@ -49,7 +49,7 @@
 
 - year: 2013
   author: Ruan J, Jiang L, Chong Z, Gong Q, Li H, Li C, Tao Y, Zheng C, Zhai W, Turissini D, Cannon CH, Lu X, Wu CI.
-  title: Pseudo-Sanger sequencing: massively parallel production of long and near error-free reads using NGS technology. 
+  title: "Pseudo-Sanger sequencing: massively parallel production of long and near error-free reads using NGS technology."
   journal: BMC Genomics. 2013 Oct 17;14:711
   doi: https://pubmed.ncbi.nlm.nih.gov/24134808/
 
@@ -91,7 +91,7 @@
 
 - year: 2015
   author: Zhou W, Zhao H, Chong Z, Mark RJ, Eterovic AK, Meric-Bernstam F, Chen K.
-  title: ClinSeK: a targeted variant characterization framework for clinical sequencing.
+  title: "ClinSeK: a targeted variant characterization framework for clinical sequencing."
   journal: Genome Med. 2015 Mar 31;7(1):34
   doi: https://pubmed.ncbi.nlm.nih.gov/25918555/
 
@@ -109,7 +109,7 @@
 
 - year: 2015
   author: Zhou W, Chen T, Chong Z, Rohrdanz MA, Melott JM, Wakefield C, Zeng J, Weinstein JN, Meric-Bernstam F, Mills GB, Chen K.
-  title: TransVar: a multilevel variant annotator for precision genomics.
+  title: "TransVar: a multilevel variant annotator for precision genomics."
   journal: Nat Methods. 2015 Nov;12(11):1002-3
   doi: https://pubmed.ncbi.nlm.nih.gov/26513549/
 
@@ -139,7 +139,7 @@
 
 - year: 2017
   author: Chong Z, Ruan J, Gao M, Zhou W, Chen T, Fan X, Ding L, Lee AY, Boutros P, Chen J, Chen K. 
-  title: novoBreak: local assembly for breakpoint detection in cancer genomes.
+  title: "novoBreak: local assembly for breakpoint detection in cancer genomes."
   journal: Nat Methods. 2017 Jan;14(1):65-67
   doi: https://pubmed.ncbi.nlm.nih.gov/27892959/
 
