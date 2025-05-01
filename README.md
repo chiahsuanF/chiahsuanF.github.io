@@ -60,7 +60,6 @@ Edit here: [software.yml](https://github.com/chiahsuanF/chiahsuanF.github.io/blo
   name: 
   description: 
   download2: 
-  question: 
 ```
 #### example
 ```
@@ -68,7 +67,6 @@ Edit here: [software.yml](https://github.com/chiahsuanF/chiahsuanF.github.io/blo
   name: ClipSV
   description: ClipSV is a novel method for SV detection based on read extension, spliced alignment, and local assembly. 
   download2: https://doi.org/10.1101/2024.07.22.604443
-  question: Write to Peng Xu should you have any questions.
 ```
 [CHONG LAB SOFTWARE](https://chiahsuanf.github.io/software/)
 
