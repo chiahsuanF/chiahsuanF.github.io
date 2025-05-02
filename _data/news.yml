@@ -194,8 +194,58 @@
   title: "Genome Biology paper is online"
   description: "Our work, “Accurate long-read de novo assembly evaluation with Inspector”, is online today in Genome Biology."
 
+- year: 2022
+  month: MAY
+  title: "BMC Genomics paper is online"
+  description: "Our work on bacteria genome long-/hybrid- read de novo assembly is accepted"
+  link: "https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-022-08577-7"
+  
+- year: 2022
+  month: AUGUST
+  title: "PloS Genetics paper is online"
+  description: "Collaborating with Dr. John Parant’s group, our paper is accepted in PloS Genetics"
+  link: "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1010341"
 
+- year: 2022
+  month: AUGUST
+  title: "Nature Communications paper is online"
+  description: "Collaborating with Lewis Shi’s group, our paper is accepted in Nature Communications"
+  link: "https://www.nature.com/articles/s41467-022-32754-7"
 
+- year: 2022
+  month: OCTOBER
+  title: "Our work on gene fusion detection with long-read transcriptome data is accepted by Cancer Research."
+  description: ""
+  link: "https://aacrjournals.org/cancerres/article/83/1/28/711845/Gene-Fusion-Detection-and-Characterization-in-Long"
+
+- year: 2023
+  month: JANUARY
+  title: "DeBreak is online in Nature Communications!"
+  description: ""
+  link: "https://www.nature.com/articles/s41467-023-35996-1"
+
+- year: 2023
+  month: JUNE
+  title: "Fengyuan successfully defended her dissertation. Congratulations, Dr. Huang!"
+
+- year: 2023
+  month: JULY
+  title: "So thrilled to join the Human Pangenome Reference Consortium (HPRC) as an Associate Member!"
+  link: "https://humanpangenome.org/"
+
+- year: 2023
+  month: SEPTEMBER
+  title: "In collaboration with Dr. Rocque from the Department of Neurosurgery, we received an R21 award."
+
+- year: 2024
+  month: JANUARY
+  title: "Our work on obese cancer analysis is online in Cancer Research"
+  link: "https://aacrjournals.org/cancerres/article/84/5/757/734931/Body-Weight-Correlates-with-Molecular-Variances-in"
+
+- year: 2024
+  month: MARCH
+  title: "Our work was selected as a featured cover paper by Cancer Research"
+  phtot: "news_photo/cancer_research.jpg"
 
 
 
