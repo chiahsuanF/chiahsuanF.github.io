@@ -6,19 +6,21 @@ permalink: /news/
 <div class="publications">
   <h1>News</h1>
 
- <p>
-  <a href="#all">All</a>
-  {% assign years = site.data.news | map: "year" | uniq | sort | reverse %}
-  {% for y in years %}
-    | <a href="#{{ y }}">{{ y }}</a>
-  {% endfor %}
-</p> 
+  <!-- Navigation links -->
+  <p>
+    <a href="#all">All</a>
+    {% assign years = site.data.news | map: "year" | uniq | sort | reverse %}
+    {% for y in years %}
+      | <a href="#{{ y }}">{{ y }}</a>
+    {% endfor %}
+  </p>
 
+  <div id="all"></div> <!-- Anchor for 'All' -->
 
-  
+  <!-- News section grouped by year and month -->
   {% assign years = site.data.news | map: "year" | uniq | sort | reverse %}
   {% for year in years %}
-    <h2>{{ year }}</h2>
+    <h2 id="{{ year }}">{{ year }}</h2> <!-- Anchor for year -->
     {% assign months = site.data.news | where: "year", year | map: "month" | uniq %}
     {% for month in months %}
       <h3>{{ month }}</h3>
