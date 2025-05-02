@@ -1,16 +1,3 @@
-- year: 2025
-  month: APRIL
-  title: "Subtyping Non-Medical Drivers of Health: From AI to Advocacy"
-  photo: "/news_photo/logo_1.png"
-
-- year: 2025
-  month: MARCH
-  title: "Metabolomics and Data Science: Data Structure, Interpretation, and Discovery"
-  link: "https://www.uab.edu/medicine/informatics/education/biomedical-informatics-powertalk-series"
-
-- year: 2024
-  month: JUNE
-  title: "hello world!"
 
 - year: 2017
   month:  MARCH
@@ -57,7 +44,55 @@
   title: "MRLR preprint"
   description: "The first preprint manuscript of the lab is available at bioRxiv.  Fingers crossed! "
 
+- year: 2018
+  month: AUGUST
+  title: "Platform talk at ASHG!"
+  description: "Our abstract has been accepted for a PLATFORM (oral) presentation at the 2018 American Society of Human Genetics Annual Meeting in San Diego."
 
+- year: 2018
+  month: AUGUST
+  title: "Pilot award!"
+  description: "We have received a pilot research award from UAB Obesity Health Disparities Research Center (OHDRC)."
+
+- year: 2018
+  month: AUGUST
+  title: "Poster award!"
+  description: "Peng’s poster won 2nd place in the ATTIS 18 Poster Competition. Congratulations!"
+
+- year: 2018
+  month: SEPTEMBER
+  title: "Supplementary Award!"
+  description: "In collaboration with Dr. Greg Cooper at HudsonAlpha, we are awarded a CSER supplementary funding."
+
+- year: 2019
+  month: MAY
+  title: "PPA-assembler accepted!"
+  description: "Collaborating with Dr. Da Yan’s group, a paper is accepted in IEEE/ACM Transactions on Computational Biology and Bioinformatics, “Scalable De Novo Genome Assembly Using a Pregel-Like Graph-Parallel System”."
+
+- year: 2019
+  month: JUNE
+  title: "MRLR accepted in Bioinformatics!"
+  description: "Our paper, “MRLR: unraveling high-resolution meiotic recombination by linked reads”, is accepted in Bioinformatics. "
+
+- year: 2019
+  month: JUNE
+  title: "AHA Research Leaders Academy"
+  description: "Zechen was invited to attend (American Heart Association) AHA Research Leaders Academy."
+
+- year: 2019
+  month: JULY
+  title: "Zechen appointed in MHRC"
+  description: "Zechen was appointed as Associate Scientist of the UAB Minority Health and Health Disparities Research Center (MHRC)."
+
+- year: 2019
+  month: AUGUST
+  title: "Two abstracted were selected at ASHG19"
+  description: "One abstract in our lab was selected as a platform talk at ASHG19. One abstract was selected as Reviewers’ Choice Abstracts at ASHG 19."
+
+- year: 2019
+  month: OCTOBER
+  title: "Welcome Yiqing"
+  description: "Welcome Yiqing from Computer Science department to join the group as a research assistant."
 
 
 
