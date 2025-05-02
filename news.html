@@ -3,10 +3,10 @@ layout: page
 permalink: /news/
 ---
 
-<div class="publications">
+<div class="publications" id="top">
   <h1>News</h1>
 
-  <!-- Navigation Links -->
+  <!-- Year Navigation -->
   <p>
     <a href="#all">All</a>
     {% assign years = site.data.news | map: "year" | uniq | sort | reverse %}
@@ -15,63 +15,68 @@ permalink: /news/
     {% endfor %}
   </p>
 
-  <div id="all"></div> <!-- Anchor for All -->
+  <div id="all"></div> <!-- Anchor for 'All' -->
 
-  <!-- News Items Flat List for JS Pagination -->
-  <ul id="news-list">
-    {% assign sorted_news = site.data.news | sort: "year" | reverse %}
-    {% assign month_order = "DECEMBER,NOVEMBER,OCTOBER,SEPTEMBER,AUGUST,JULY,JUNE,MAY,APRIL,MARCH,FEBRUARY,JANUARY" | split: "," %}
-    {% assign month_map = month_order | reverse %}
-    
-    {% assign sorted_news = sorted_news | sort: "month" %}
-    {% for item in site.data.news %}
-      <li style="margin-bottom: 30px;">
-        <strong>{{ item.year }} - {{ item.month }}: {{ item.title }}</strong><br>
-        {% if item.description %}
-          <p>{{ item.description }}</p>
-        {% endif %}
-        {% if item.photo %}
-          <img src="{{ item.photo }}" alt="News Image" style="max-width: 300px; display: block; margin-top: 10px;">
-        {% endif %}
-        {% if item.link %}
-          <p><a href="{{ item.link }}" target="_blank">More Info</a></p>
-        {% endif %}
-      </li>
+  {% assign month_order = "DECEMBER,NOVEMBER,OCTOBER,SEPTEMBER,AUGUST,JULY,JUNE,MAY,APRIL,MARCH,FEBRUARY,JANUARY" | split: "," %}
+
+  {% assign years = site.data.news | map: "year" | uniq | sort | reverse %}
+  {% for year in years %}
+    <h2 id="{{ year }}">{{ year }}</h2>
+
+    {% assign all_months = site.data.news | where: "year", year | map: "month" | uniq %}
+    {% assign months = "" | split: "" %}
+    {% for m in month_order %}
+      {% if all_months contains m %}
+        {% assign months = months | push: m %}
+      {% endif %}
     {% endfor %}
-  </ul>
+
+    {% for month in months %}
+      <h3>{{ month }}</h3>
+      <ul>
+        {% for news_item in site.data.news %}
+          {% if news_item.year == year and news_item.month == month %}
+            <li style="margin-bottom: 20px;">
+              <strong>{{ news_item.title }}</strong><br>
+              {% if news_item.description %}
+                <p>{{ news_item.description }}</p>
+              {% endif %}
+              {% if news_item.photo %}
+                <img src="{{ news_item.photo }}" alt="News Image" style="max-width: 300px; display: block; margin-top: 10px;">
+              {% endif %}
+              {% if news_item.link %}
+                <p><a href="{{ news_item.link }}" target="_blank">More Info</a></p>
+              {% endif %}
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    {% endfor %}
+  {% endfor %}
 </div>
+
+<!-- Optional Pagination Controls if Needed (non-functional without plugin) -->
+<!--
+<div class="pagination">
+  <span class="previous">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path }}">Previous</a>
+    {% else %}
+      <span>Previous</span>
+    {% endif %}
+  </span>
+
+  <span class="next">
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path }}">Next</a>
+    {% else %}
+      <span>Next</span>
+    {% endif %}
+  </span>
+</div>
+-->
 
 <!-- Back to Top Button -->
-<div style="text-align: center; margin-top: 2em;">
-  <a href="#top">Back to Top</a>
+<div style="text-align: center; margin-top: 3em;">
+  <a href="#top" style="font-weight: bold; text-decoration: underline;">Back to Top</a>
 </div>
-
-<script>
-  const items = document.querySelectorAll("#news-list li");
-  const itemsPerPage = 10;
-  let currentPage = 1;
-
-  function showPage(page) {
-    const totalPages = Math.ceil(items.length / itemsPerPage);
-    if (page < 1 || page > totalPages) return;
-
-    items.forEach(item => item.style.display = "none");
-
-    const start = (page - 1) * itemsPerPage;
-    const end = start + itemsPerPage;
-    for (let i = start; i < end && i < items.length; i++) {
-      items[i].style.display = "block";
-    }
-
-    document.getElementById("page-info").textContent = `Page ${page} of ${totalPages}`;
-    currentPage = page;
-  }
-
-  function changePage(delta) {
-    showPage(currentPage + delta);
-  }
-
-  document.addEventListener("DOMContentLoaded", () => {
-    showPage(1);
-  });
-</script>
