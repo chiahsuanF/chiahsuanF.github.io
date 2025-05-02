@@ -6,7 +6,7 @@ permalink: /news/
 <div class="publications">
   <h1>News</h1>
 
-  <!-- Navigation links -->
+  <!-- Year Navigation -->
   <p>
     <a href="#all">All</a>
     {% assign years = site.data.news | map: "year" | uniq | sort | reverse %}
@@ -17,11 +17,20 @@ permalink: /news/
 
   <div id="all"></div> <!-- Anchor for 'All' -->
 
-  <!-- News section grouped by year and month -->
   {% assign years = site.data.news | map: "year" | uniq | sort | reverse %}
+  {% assign month_order = "JANUARY,FEBRUARY,MARCH,APRIL,MAY,JUNE,JULY,AUGUST,SEPTEMBER,OCTOBER,NOVEMBER,DECEMBER" | split: "," %}
+
   {% for year in years %}
-    <h2 id="{{ year }}">{{ year }}</h2> <!-- Anchor for year -->
-    {% assign months = site.data.news | where: "year", year | map: "month" | uniq %}
+    <h2 id="{{ year }}">{{ year }}</h2>
+
+    {% assign all_months = site.data.news | where: "year", year | map: "month" | uniq %}
+    {% assign months = "" | split: "" %}
+    {% for m in month_order %}
+      {% if all_months contains m %}
+        {% assign months = months | push: m %}
+      {% endif %}
+    {% endfor %}
+
     {% for month in months %}
       <h3>{{ month }}</h3>
       <ul>
