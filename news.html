@@ -73,3 +73,46 @@ permalink: /news/
     {% endif %}
   </span>
 </div>
+
+
+<!-- Pagination buttons -->
+<div id="pagination-controls" style="margin-top: 2em; text-align: center;">
+  <button onclick="changePage(-1)">Previous</button>
+  <span id="page-info"></span>
+  <button onclick="changePage(1)">Next</button>
+</div>
+</div> <!-- Closing .publications -->
+
+<script>
+  const items = document.querySelectorAll(".publications ul li");
+  const itemsPerPage = 10;
+  let currentPage = 1;
+
+  function showPage(page) {
+    const totalPages = Math.ceil(items.length / itemsPerPage);
+    if (page < 1 || page > totalPages) return;
+
+    // Hide all items
+    items.forEach(item => item.style.display = "none");
+
+    // Show items for current page
+    const start = (page - 1) * itemsPerPage;
+    const end = start + itemsPerPage;
+    for (let i = start; i < end && i < items.length; i++) {
+      items[i].style.display = "block";
+    }
+
+    // Update page info
+    document.getElementById("page-info").textContent = `Page ${page} of ${totalPages}`;
+    currentPage = page;
+  }
+
+  function changePage(delta) {
+    showPage(currentPage + delta);
+  }
+
+  // Initialize on page load
+  document.addEventListener("DOMContentLoaded", () => {
+    showPage(1);
+  });
+</script>
