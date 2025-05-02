@@ -15,13 +15,16 @@ permalink: /news/
       <ul>
         {% for news_item in site.data.news %}
           {% if news_item.year == year and news_item.month == month %}
-            <li>
-              {{ news_item.title }}<br>
+            <li style="margin-bottom: 20px;">
+              <strong>{{ news_item.title }}</strong><br>
+              {% if news_item.description %}
+                <p>{{ news_item.description }}</p>
+              {% endif %}
               {% if news_item.photo %}
-                <img src="{{ news_item.photo }}" alt="News Image" style="max-width:300px;">
+                <img src="{{ news_item.photo }}" alt="News Image" style="max-width: 300px; display: block; margin-top: 10px;">
               {% endif %}
               {% if news_item.link %}
-                <br><a href="{{ news_item.link }}" target="_blank">PowerTalk</a>
+                <p><a href="{{ news_item.link }}" target="_blank">More Info</a></p>
               {% endif %}
             </li>
           {% endif %}
