@@ -17,11 +17,10 @@ permalink: /news/
 
   <div id="all"></div> <!-- Anchor for 'All' -->
 
-  {% assign years = site.data.news | map: "year" | uniq | sort | reverse %}
   {% assign month_order = "DECEMBER,NOVEMBER,OCTOBER,SEPTEMBER,AUGUST,JULY,JUNE,MAY,APRIL,MARCH,FEBRUARY,JANUARY" | split: "," %}
 
-
-  {% for year in years %}
+  <!-- Paginate through the posts -->
+  {% for year in site.posts | paginate: 10 %}
     <h2 id="{{ year }}">{{ year }}</h2>
 
     {% assign all_months = site.data.news | where: "year", year | map: "month" | uniq %}
@@ -54,4 +53,23 @@ permalink: /news/
       </ul>
     {% endfor %}
   {% endfor %}
+</div>
+
+<!-- Pagination links -->
+<div class="pagination">
+  <span class="previous">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path }}">Previous</a>
+    {% else %}
+      <span>Previous</span>
+    {% endif %}
+  </span>
+
+  <span class="next">
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path }}">Next</a>
+    {% else %}
+      <span>Next</span>
+    {% endif %}
+  </span>
 </div>
