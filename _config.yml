@@ -102,7 +102,8 @@ chart: # false (default), true
 ## => Paginate
 ##############################
 paginate: 10
-paginate_path: /news.html:num # don't change this unless for special need
+paginate_path: "/news/page:num"
+
 
 
 ## => Sources
