@@ -170,6 +170,7 @@ pageview:
 #  google:
 #    custom_search_engine_id: # Google Custom Search Engine ID
 
+permalink: pretty
 
 ## => Analytics
 ##############################
