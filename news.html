@@ -1,13 +1,7 @@
 ---
 layout: page
-permalink: /news/:num/
+permalink: /news/
 ---
-
-{% assign all_news = site.data.news | sort: "year" | reverse %}
-{% assign page_num = page.url | split: '/' | last | default: '1' | plus: 0 %}
-{% assign per_page = 10 %}
-{% assign offset = per_page | times: page_num | minus: per_page %}
-{% assign paginated_news = all_news | slice: offset, per_page %}
 
 <div class="publications">
   <h1>News</h1>
@@ -15,20 +9,22 @@ permalink: /news/:num/
   <!-- Year Navigation -->
   <p>
     <a href="#all">All</a>
-    {% assign years = paginated_news | map: "year" | uniq | sort | reverse %}
+    {% assign years = site.data.news | map: "year" | uniq | sort | reverse %}
     {% for y in years %}
       | <a href="#{{ y }}">{{ y }}</a>
     {% endfor %}
   </p>
 
-  <div id="all"></div>
+  <div id="all"></div> <!-- Anchor for 'All' -->
 
+  {% assign years = site.data.news | map: "year" | uniq | sort | reverse %}
   {% assign month_order = "DECEMBER,NOVEMBER,OCTOBER,SEPTEMBER,AUGUST,JULY,JUNE,MAY,APRIL,MARCH,FEBRUARY,JANUARY" | split: "," %}
+
 
   {% for year in years %}
     <h2 id="{{ year }}">{{ year }}</h2>
 
-    {% assign all_months = paginated_news | where: "year", year | map: "month" | uniq %}
+    {% assign all_months = site.data.news | where: "year", year | map: "month" | uniq %}
     {% assign months = "" | split: "" %}
     {% for m in month_order %}
       {% if all_months contains m %}
@@ -39,7 +35,7 @@ permalink: /news/:num/
     {% for month in months %}
       <h3>{{ month }}</h3>
       <ul>
-        {% for news_item in paginated_news %}
+        {% for news_item in site.data.news %}
           {% if news_item.year == year and news_item.month == month %}
             <li style="margin-bottom: 20px;">
               <strong>{{ news_item.title }}</strong><br>
@@ -58,25 +54,4 @@ permalink: /news/:num/
       </ul>
     {% endfor %}
   {% endfor %}
-
-  <!-- Pagination Controls -->
-  <div class="pagination" style="margin-top: 40px;">
-    {% assign total_pages = all_news.size | divided_by: per_page | ceil %}
-
-    {% if page_num > 1 %}
-      <a href="/news/{{ page_num | minus: 1 }}/">&laquo; Previous</a>
-    {% endif %}
-
-    {% for i in (1..total_pages) %}
-      {% if i == page_num %}
-        <strong>{{ i }}</strong>
-      {% else %}
-        <a href="/news/{{ i }}/">{{ i }}</a>
-      {% endif %}
-    {% endfor %}
-
-    {% if page_num < total_pages %}
-      <a href="/news/{{ page_num | plus: 1 }}/">Next &raquo;</a>
-    {% endif %}
-  </div>
 </div>
