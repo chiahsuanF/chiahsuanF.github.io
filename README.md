@@ -10,7 +10,7 @@ Edit photo: [news_photo](https://github.com/chiahsuanF/chiahsuanF.github.io/tree
   title: ""
   description: ""
   link: ""
-  phtot: "news_photo/PHOTO"
+  photo: "news_photo/PHOTO"
 ```
 
 #### example
@@ -18,11 +18,13 @@ Edit photo: [news_photo](https://github.com/chiahsuanF/chiahsuanF.github.io/tree
 - year: 2025
   month: APRIL
   title: "Subtyping Non-Medical Drivers of Health: From AI to Advocacy"
+  description: ""
   photo: "news_photo/PHOTO.png"
 
 - year: 2025
   month: MARCH
   title: "Metabolomics and Data Science: Data Structure, Interpretation, and Discovery"
+  description: ""
   link: "https://www.uab.edu/medicine/informatics/education/biomedical-informatics-powertalk-series"
 
 - year: 2024
