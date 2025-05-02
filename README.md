@@ -7,7 +7,8 @@ Edit photo: [news_photo](https://github.com/chiahsuanF/chiahsuanF.github.io/tree
 ```
 - year: 
   month: 
-  title: "" 
+  title: ""
+  description: ""
   link: ""
   phtot: "news_photo/PHOTO"
 ```
