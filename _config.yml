@@ -227,3 +227,8 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jemoji
+  
+collections:
+  news:
+    output: true
+    permalink: /news/:name/
