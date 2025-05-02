@@ -18,7 +18,8 @@ permalink: /news/
   <div id="all"></div> <!-- Anchor for 'All' -->
 
   {% assign years = site.data.news | map: "year" | uniq | sort | reverse %}
-  {% assign month_order = "JANUARY,FEBRUARY,MARCH,APRIL,MAY,JUNE,JULY,AUGUST,SEPTEMBER,OCTOBER,NOVEMBER,DECEMBER" | split: "," %}
+  {% assign month_order = "DECEMBER,NOVEMBER,OCTOBER,SEPTEMBER,AUGUST,JULY,JUNE,MAY,APRIL,MARCH,FEBRUARY,JANUARY" | split: "," %}
+
 
   {% for year in years %}
     <h2 id="{{ year }}">{{ year }}</h2>
