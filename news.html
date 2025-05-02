@@ -15,7 +15,7 @@ permalink: /news/
       <ul>
         {% for news_item in site.data.news %}
           {% if news_item.year == year and news_item.month == month %}
-            <li style="margin-bottom: 20px;">
+            <li class="news-item year-{{ news_item.year | downcase }}" style="margin-bottom: 20px;">
               <strong>{{ news_item.title }}</strong><br>
               {% if news_item.description %}
                 <p>{{ news_item.description }}</p>
