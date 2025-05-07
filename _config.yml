@@ -235,6 +235,7 @@ defaults:
       show_edit_on_github: true
       show_subscribe: true
       pageview: true
+      css: "/assets/css/main.css"
 
 ## => Plugins
 ##############################
