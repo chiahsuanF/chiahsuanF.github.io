@@ -259,8 +259,8 @@
 .page,
 .page__inner-wrap,
 .wrapper {
-  max-width: 200% !important;  // Increase from default ~70%
-  width: 95% !important;
+  max-width: 95% !important;  // Increase from default ~70%
+  width: 50% !important;
   margin: 0 auto;
   font-size: 2em; // Increase base font size for zoom effect
 }
