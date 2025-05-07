@@ -46,7 +46,8 @@ plugins:
 
 # Custom SCSS file (if needed)
 include:
-  - _sass
+  - assets/css/_custom.scss
+
 
 
 ## => Author and Social
