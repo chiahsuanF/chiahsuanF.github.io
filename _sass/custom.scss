@@ -254,14 +254,4 @@
 
 
 
-// Increase content width (simulate 125% zoom)
-.page__content,
-.page,
-.page__inner-wrap,
-.wrapper {
-  max-width: 95% !important;  // Increase from default ~70%
-  width: 95% !important;
-  margin: 0 auto;
-  font-size: 1.125em; // Increase base font size for zoom effect
-}
 
