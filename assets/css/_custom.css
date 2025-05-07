@@ -37,7 +37,7 @@
 .page__inner-wrap,
 .wrapper {
   max-width: 95% !important;
-  width: 95% !important;
+  width: 150% !important;
   margin: 0 auto;
   font-size: 1.125em;
 }
