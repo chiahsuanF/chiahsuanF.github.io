@@ -251,3 +251,13 @@
 .financeurs-footer .financeur-item:hover img {
   transform: scale(1.05); /* Légère mise en avant au survol */
 }
+
+
+
+// Make page content wider
+.page__content,
+.page {
+  max-width: 1200px; // You can try 1000–1400px
+  margin: 0 auto;
+  padding: 0 20px;
+}
