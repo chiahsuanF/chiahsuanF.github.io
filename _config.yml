@@ -31,10 +31,25 @@ description: >
 ##############################
 lang: # the language of your site, default as "en"
 timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
+# In _config.yml
 sass:
-  sass_dir: _sass
   style: compressed
-  syntax: scss
+
+# Optional, if not present
+theme: minimal-mistakes-jekyll
+
+# Enable the custom styles
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-archives
+
+# Custom SCSS file (if needed)
+include:
+  - _sass
+
 
 ## => Author and Social
 ##############################
