@@ -35,8 +35,6 @@ timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for
 sass:
   style: compressed
 
-# Optional, if not present
-theme: minimal-mistakes-jekyll
 
 # Enable the custom styles
 plugins:
