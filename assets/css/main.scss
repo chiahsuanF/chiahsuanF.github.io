@@ -55,5 +55,6 @@
 @import "layout/landing";
 @import "layout/404";
 
-@import "assets/css/custom.css";
+@import "assets/css/_custom.css";
 @import "custom";
+@import "minimal-mistakes"; // Theme base styles
