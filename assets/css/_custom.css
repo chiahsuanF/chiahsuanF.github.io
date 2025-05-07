@@ -42,6 +42,19 @@
   font-size: 1.125em;
 }
 
+// Reduce horizontal padding/margins around main content area
+.main {
+  max-width: 200%;  // You can adjust to 95%, 100%, etc.
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.page__main-inner {
+  padding-left: 0;
+  padding-right: 0;
+}
 
 
 
