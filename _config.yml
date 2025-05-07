@@ -46,7 +46,7 @@ plugins:
 
 # Custom SCSS file (if needed)
 include:
-  - assets/css/_custom.scss
+  - assets/css/custom.scss
 
 
 
