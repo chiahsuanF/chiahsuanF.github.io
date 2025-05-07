@@ -35,7 +35,8 @@ permalink: /news/
       <h3>{{ month }}</h3>
       <ul>
         {% for news_item in site.data.news %}
-          {% if news_item.year == year and news_item.month == month %}
+          {% assign m_trimmed = news_item.month | upcase | strip %}
+          {% if news_item.year == year and m_trimmed == month %}
             <li style="margin-bottom: 20px;">
               <strong>{{ news_item.title }}</strong><br>
               {% if news_item.description %}
