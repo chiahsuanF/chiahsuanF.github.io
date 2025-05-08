@@ -27,18 +27,18 @@ permalink: /publications/
       {% for pub in site.data.publication %}
         {% if pub.year == y %}
           <li>
-            <p style="font-size: 1.25rem;">
+            <p style="font-size: 1.15rem;">
               {{ pub.author }}
             </p>
-            <em style="font-size: 1.25rem;">
+            <em style="font-size: 1.15rem;">
               {{ pub.title }}
             </em>
             <br>
-            <strong style="font-size: 1.25rem;">
+            <strong style="font-size: 1.15rem;">
               {{ pub.journal }}
             </strong>
             <br>
-            <a href="{{ pub.doi }}" target="_blank" style="font-size: 1.25rem;">[Abstract]</a>
+            <a href="{{ pub.doi }}" target="_blank" style="font-size: 1.15rem;">[Abstract]</a>
           </li>
         {% endif %}
       {% endfor %}
