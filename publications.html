@@ -10,7 +10,7 @@ permalink: /publications/
     Visit <a href="https://scholar.google.com/citations?hl=en&user=0gY9Qm4AAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Google Scholar</a> for more information.
   </p>
   
-  <br>
+
 
 <p>
   <a href="#all">All</a>
@@ -27,10 +27,16 @@ permalink: /publications/
       {% for pub in site.data.publication %}
         {% if pub.year == y %}
           <li>
-            {{ pub.author }}<br>
-            <em>{{ pub.title }}</em><br>
-            <strong>{{ pub.journal }}</strong><br>
-            <a href="{{ pub.doi }}" target="_blank">[Abstract]</a>
+            <p style="font-size: 1.25rem;">
+              {{ pub.author }}
+            </p>
+            <em style="font-size: 1.25rem;">
+              {{ pub.title }}
+            </em>
+            <strong style="font-size: 1.25rem;">
+              {{ pub.journal }}
+            </strong>
+            <a href="{{ pub.doi }}" target="_blank" style="font-size: 1.25rem;">[Abstract]</a>
           </li>
         {% endif %}
       {% endfor %}
