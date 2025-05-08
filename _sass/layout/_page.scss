@@ -3,7 +3,6 @@ html,
 .root,
 .layout--page {
   height: 100%;
-  width: 100%;
 }
 
 .layout--page {
@@ -44,7 +43,7 @@ html,
 .page__content {
   @include flex(1);
   width: 100%;
-  margin: 0 auto;
+  margin: 0;
   @media print {
     padding-bottom: 0;
   }
